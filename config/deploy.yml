@@ -2,7 +2,7 @@
 service: template
 
 # GitHub Container Registry (Identifier)
-image: noahbaumgartner2/template
+image: almatik-ch/template
 
 # Production-Server (immer derselbe Host)
 servers:

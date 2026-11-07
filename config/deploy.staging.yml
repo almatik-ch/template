@@ -1,6 +1,6 @@
 service: template_staging
 
-image: noahbaumgartner2/template
+image: almatik-ch/template
 
 # Staging-Server (derselbe Host wie Production)
 servers:

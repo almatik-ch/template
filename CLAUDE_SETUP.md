@@ -203,10 +203,10 @@ GitHub-REST-API via curl). `private` nach Wunsch setzen:
 ```bash
 TOKEN=$(sed -E 's#https://[^:]+:([^@]+)@.*#\1#' ~/.git-credentials)
 curl -s -X POST -H "Authorization: token $TOKEN" -H "Accept: application/vnd.github+json" \
-  https://api.github.com/user/repos \
+  https://api.github.com/orgs/almatik-ch/repos \
   -d '{"name":"<project_name>","private":false}'
 git config credential.helper store
-git remote add origin https://github.com/NoahBaumgartner2/<project_name>.git
+git remote add origin https://github.com/almatik-ch/<project_name>.git
 git push -u origin main
 ```
 
