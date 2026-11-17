@@ -1,6 +1,6 @@
 # Dev-Container-Image für template
 # RUBY_VERSION muss zu .ruby-version und Gemfile passen
-ARG RUBY_VERSION=3.4.4
+ARG RUBY_VERSION=4.0.9
 FROM registry.docker.com/library/ruby:${RUBY_VERSION}-slim
 
 # Pakete für Rails, Postgres-Client, ActiveStorage (libvips) und Claude Code (Node.js)

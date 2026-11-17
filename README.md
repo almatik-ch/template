@@ -11,7 +11,7 @@ eigenem User, Git, GitHub CLI und Claude Code im Container).
 
 ## Tech-Stack
 
-- Ruby 3.4.4 / Rails 7.1
+- Ruby 4.0.9 / Rails 8.1
 - PostgreSQL 15
 - TailwindCSS (tailwindcss-rails, v4 `@theme`)
 - Hotwire (Turbo + Stimulus), Importmaps
